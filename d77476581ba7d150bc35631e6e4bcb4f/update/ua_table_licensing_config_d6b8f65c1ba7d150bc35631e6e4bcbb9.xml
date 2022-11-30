@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_acal_cicd_test_wish_item</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>steve.wilson</sys_created_by>
+        <sys_created_on>2022-11-29 23:39:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d6b8f65c1ba7d150bc35631e6e4bcbb9</sys_id>
+        <sys_name>x_acal_cicd_test_wish_item</sys_name>
+        <sys_package display_value="CICD Test" source="x_acal_cicd_test">d77476581ba7d150bc35631e6e4bcb4f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CICD Test">d77476581ba7d150bc35631e6e4bcb4f</sys_scope>
+        <sys_update_name>ua_table_licensing_config_d6b8f65c1ba7d150bc35631e6e4bcbb9</sys_update_name>
+    </ua_table_licensing_config>
+</record_update>

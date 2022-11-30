@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_acal_cicd_test.wish_item_user" name="x_acal_cicd_test.wish_item_user">f5b8f6d81ba7d150bc35631e6e4bcbc9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>steve.wilson</sys_created_by>
+        <sys_created_on>2022-11-29 23:39:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>39b8f65c1ba7d150bc35631e6e4bcb53</sys_id>
+        <sys_name>f5b8f6d81ba7d150bc35631e6e4bcbc9</sys_name>
+        <sys_package display_value="CICD Test" source="x_acal_cicd_test">d77476581ba7d150bc35631e6e4bcb4f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CICD Test">d77476581ba7d150bc35631e6e4bcb4f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_39b8f65c1ba7d150bc35631e6e4bcb53</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

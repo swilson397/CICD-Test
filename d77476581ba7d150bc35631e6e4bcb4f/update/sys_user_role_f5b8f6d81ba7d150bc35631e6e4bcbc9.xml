@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_acal_cicd_test.wish_item_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>wish_item_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>steve.wilson</sys_created_by>
+        <sys_created_on>2022-11-29 23:39:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f5b8f6d81ba7d150bc35631e6e4bcbc9</sys_id>
+        <sys_name>x_acal_cicd_test.wish_item_user</sys_name>
+        <sys_package display_value="CICD Test" source="x_acal_cicd_test">d77476581ba7d150bc35631e6e4bcb4f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CICD Test">d77476581ba7d150bc35631e6e4bcb4f</sys_scope>
+        <sys_update_name>sys_user_role_f5b8f6d81ba7d150bc35631e6e4bcbc9</sys_update_name>
+        <u_visible_to_domain>false</u_visible_to_domain>
+    </sys_user_role>
+</record_update>
