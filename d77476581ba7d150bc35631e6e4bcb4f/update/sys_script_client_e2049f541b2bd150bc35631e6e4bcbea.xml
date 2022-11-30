@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requester to the currently logged in user for new Wish Item records. Users can change the field value.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Wish Item Set Requester</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+  //Check if the form is for a new record.  If it is a new record, 
+  //set the Requester value to the currently logged in user.
+  
+  if(g_form.isNewRecord()){
+    g_form.setValue('requester',g_user.userID);
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>steve.wilson</sys_created_by>
+        <sys_created_on>2022-11-30 01:40:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2049f541b2bd150bc35631e6e4bcbea</sys_id>
+        <sys_name>Wish Item Set Requester</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="CICD Test" source="x_acal_cicd_test">d77476581ba7d150bc35631e6e4bcb4f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CICD Test">d77476581ba7d150bc35631e6e4bcb4f</sys_scope>
+        <sys_update_name>sys_script_client_e2049f541b2bd150bc35631e6e4bcbea</sys_update_name>
+        <table>x_acal_cicd_test_wish_item</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
